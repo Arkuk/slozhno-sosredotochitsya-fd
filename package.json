@@ -1,0 +1,20 @@
+{
+  "name": "slozhno-sosredotochitsya-fd",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Arkuk/slozhno-sosredotochitsya-fd#readme",
+  "bugs": {
+    "url": "https://github.com/Arkuk/slozhno-sosredotochitsya-fd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arkuk/slozhno-sosredotochitsya-fd.git"
+  },
+  "license": "ISC",
+  "author": "Arthur",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
