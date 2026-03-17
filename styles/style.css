@@ -16,8 +16,7 @@
   block-size: 100vh;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  padding-inline-start: var(--main-padding);
-  padding-inline-end: var(--main-padding);
+  padding: var(--main-padding);
   margin-block-end: var(--main-margin);
 }
 
