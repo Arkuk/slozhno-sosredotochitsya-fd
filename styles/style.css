@@ -157,7 +157,7 @@
 }
 
 .main__section:not(:last-child) {
-  margin-block-end: 50px;
+  margin-block-end: 49px;
 }
 
 .section__title {
