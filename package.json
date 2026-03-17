@@ -1,0 +1,30 @@
+{
+  "name": "slozhno-sosredotochitsya-fd",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Arkuk/slozhno-sosredotochitsya-fd#readme",
+  "bugs": {
+    "url": "https://github.com/Arkuk/slozhno-sosredotochitsya-fd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arkuk/slozhno-sosredotochitsya-fd.git"
+  },
+  "license": "ISC",
+  "author": "Arthur",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Привет!'",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint './**/*.css'",
+    "lintfix": "stylelint './**/*.css' --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "stylelint": "^17.4.0"
+  }
+}
