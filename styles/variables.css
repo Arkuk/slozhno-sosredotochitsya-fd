@@ -3,27 +3,30 @@
   --main-font: "IBM Plex Mono";
   --main-font-size: 18px;
   --main-padding: 10px;
+  --main-margin: 40px;
   --title-color: #db00ff;
   --text-color: #f1b2ce;
-  --bg-image: url("../images/cover-image-dark.png");
+  --bg-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
   --section-title-color: var(--accent-color);
   --btn-color: var(--accent-color);
   --title-decor-text-color: #000028;
-  --button-hover: rgba(255, 0, 112, 0.4);
+  --button-hover: rgb(255 0 112 / 0.4);
   --decorated-icon-visible: flex;
   --decorated-corner-color: var(--accent-color);
 }
+
 @media (prefers-color-scheme: light) {
+
   :root {
     --bg-color: #ffc2e6;
     --title-color: #ffc2e6;
     --text-color: #353430;
-    --bg-image: url("../images/cover-image-light.png");
+    --bg-image: url(../images/cover-image-light.png);
     --accent-color: #ff8dcb;
     --title-decor-text-color: var(--text-color);
     --btn-color: var(--text-color);
-    --button-hover: rgba(50, 49, 45, 0.4);
+    --button-hover: rgb(50 49 45 / 0.4);
     --decorated-icon-visible: none;
     --decorated-corner-color: var(--text-color);
   }

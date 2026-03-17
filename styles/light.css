@@ -2,12 +2,12 @@
   --bg-color: #ffc2e6;
   --title-color: #ffc2e6;
   --text-color: #353430;
-  --bg-image: url("../images/cover-image-light.png");
+  --bg-image: url(../images/cover-image-light.png);
   --accent-color: #ff8dcb;
   --section-title-color: var(--text-color);
   --title-decor-text-color: var(--text-color);
   --btn-color: var(--text-color);
-  --button-hover: rgba(50, 49, 45, 0.4);
+  --button-hover: rgb(50 49 45 / 0.4);
   --decorated-icon-visible: none;
   --decorated-corner-color: var(--text-color);
 }
