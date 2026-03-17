@@ -219,6 +219,7 @@
 }
 
 @media (width >= 768px) {
+
   :root {
     --main-padding: 20px;
   }
@@ -295,6 +296,7 @@
 }
 
 @media (width >= 1024px) {
+
   .header__theme-menu {
     justify-self: center;
     align-self: start;
@@ -305,6 +307,7 @@
   }
 
   .even {
+
     .section__title {
       grid-column: 1 / 2;
       grid-row: 1;
