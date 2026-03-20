@@ -15,19 +15,3 @@
   --decorated-icon-visible: flex;
   --decorated-corner-color: var(--accent-color);
 }
-
-@media (prefers-color-scheme: light) {
-
-  :root {
-    --bg-color: #fff1f7;
-    --title-color: #ffc2e6;
-    --text-color: #353430;
-    --bg-image: url(../images/cover-image-light.png);
-    --accent-color: #ff8dcb;
-    --title-decor-text-color: var(--text-color);
-    --btn-color: var(--text-color);
-    --button-hover: rgb(50 49 45 / 0.4);
-    --decorated-icon-visible: none;
-    --decorated-corner-color: var(--text-color);
-  }
-}
